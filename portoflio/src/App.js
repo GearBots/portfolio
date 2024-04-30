@@ -12,6 +12,7 @@ function App() {
       <Route path = "/" element = {<NavLayout />}>
         <Route index element = {<Home />} />
         <Route path = "/about" element = {<About />}/>
+
       </Route>
     )
   )
